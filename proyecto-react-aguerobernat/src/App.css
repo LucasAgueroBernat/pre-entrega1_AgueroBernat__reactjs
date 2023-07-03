@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  background-color: rgb(206, 93, 93);
+  color: #fafafa;
+  width: 800px;
+}
+.contenedor-header{
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.contenedor--catalogo{
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.contenedor--catalogo h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px 0;
+}
