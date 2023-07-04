@@ -1,4 +1,4 @@
-
+import './itemListContainer.css';
 
 const ItemListContainer = () => {
 

@@ -1,0 +1,11 @@
+.contenedor--catalogo{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .contenedor--catalogo h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0;
+  }

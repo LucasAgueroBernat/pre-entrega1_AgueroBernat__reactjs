@@ -1,15 +1,15 @@
+import React from 'react';
+import cardwidget from '../../assets/cardwidget.jpg';
+import { Button } from 'bootstrap-4-react';
 
-import cardwidget from './assets/cardwidget.jpg'
-
- const CartWidget = () => {
-
-    return(
+const CartWidget = () => {
+    return (
         <div>
-            <img src="{cardwidget}" alt="logo carrito" />
-            <p></p>
+            <img src={cardwidget} alt="logo carrito" />
+            <p>1</p>
+            <Button success outline>Success</Button>
         </div>
+    );
+};
 
-    )
-}
-
-export default CartWidget
+export default CartWidget;
