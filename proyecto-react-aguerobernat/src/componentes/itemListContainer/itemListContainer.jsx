@@ -1,15 +1,26 @@
-import './itemListContainer.css';
+import { useEffect, useState } from 'react'
+import './itemListContainer.css'
+import { pedirDatos } from '../../helpers/pedirDatos'
+import ItemList from '../itemList/itemList'
 
 const ItemListContainer = () => {
+  const [productos, setProductos] = useState([])
 
-    return (
-        <div className="contenedor--catalogo">
-            <h2>Catalogo</h2>
-            <hr/>
+  useEffect(() => {
+    pedirDatos()
+      .then((res) => {
+        setProductos(res)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  }, []) 
 
-            <p>productos</p>
-        </div>
-    )
+  return (
+    <div>
+      <ItemList productos={productos} />
+    </div>
+  )
 }
 
 export default ItemListContainer

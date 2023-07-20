@@ -1,0 +1,44 @@
+[
+    {
+       "id" :1,
+       "nombre":"Granja de Zenon",
+       "descripcion":"Todos los personajes de la granja de zenon para vos",
+       "precio":2000,
+       "img":"../src/assets/granjaDeXenon.jpeg"  
+    },
+    {
+       "id" :2,
+       "nombre":"Harley Quenn",
+       "descripcion":"La villana favorita de todos para que te proteja donde vayas",
+       "precio":2500,
+       "img":"../src/assets/harleyQueen.jpeg"  
+       },
+       {
+       "id":3,
+       "nombre":"Escarapelas",
+       "descripcion":"Las escarapelas mas bellas para llevar a la patria en el corazon",
+       "precio":2000,
+       "img":"../src/assets/escarapelas.jpeg"  
+       },
+       {
+        "id":4,
+        "nombre":"Almohada Spidey",
+        "descripcion":"El SuperHeroe aracnido protegiendo tus sueños",
+        "precio":3000,
+        "img":"../src/assets/almohadSpiderMan.jpeg"   
+       },
+       {
+       "id":5,
+       "nombre":"Unicornio Blanco",
+       "descripcion":"Todas la niñas la desean la unicornio mas hermosa y tierna",
+       "precio":3500,
+       "img":"../src/assets/unicornioBlanco.jpeg"   
+       },
+       {
+       "id" :6,
+       "nombre" :"Colitas con Rulitos",
+       "descripcion" :"Las colitas mas bellas solo aca",
+       "precio" :2000,
+       "img" :"../src/assets/colitasConRulitos.jpeg"   
+       }
+    ]

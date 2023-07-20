@@ -1,7 +1,8 @@
 .header{
-    background-color: rgb(253, 167, 210);
-    color: #fafafa;
-    max-width: 1100px;
+    background-color:#fafafa ;
+    color: rgb(253, 167, 210);
+    max-width: 1200px;
+    border: solid rgb(253, 167, 210) ;
   }
   .contenedor-header{
     margin: 0 auto;
@@ -24,6 +25,13 @@
     font-size: large;
     cursor: pointer;
     transition: 4s else all;
-    border: solid rgb(226, 193, 193);
+    
 
   }
+
+  .imgNavBar{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+  }
+  

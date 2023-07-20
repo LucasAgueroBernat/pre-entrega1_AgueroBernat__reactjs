@@ -1,0 +1,12 @@
+.error404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+    color: rgb(236, 102, 218);
+    
+}
